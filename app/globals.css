@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-size: 15px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500;
+}
+
+.navbar {
+  position: absolute;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
